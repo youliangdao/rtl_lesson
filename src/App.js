@@ -27,8 +27,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <RenderInput outputConsole={console.log} />
-        {/* <FrameworkList frameworks={data} /> */}
-        <FrameworkList />
+        <FrameworkList frameworks={data} />
+        {/* <FrameworkList /> */}
         <MockServer />
         <p>
           Edit <code>src/App.js</code> and save to reload.
