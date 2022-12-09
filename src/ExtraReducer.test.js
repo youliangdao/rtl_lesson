@@ -1,6 +1,5 @@
 import reducer, {
   fetchDummy,
-  fetchJSON,
 } from "./features/customCounter/customCounterSlice";
 
 describe("customCounterSliceに登録されたextraReducerのテスト", () => {
